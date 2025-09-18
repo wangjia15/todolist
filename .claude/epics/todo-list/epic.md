@@ -4,7 +4,7 @@ status: backlog
 created: 2025-09-18T00:13:38Z
 progress: 0%
 prd: .claude/prds/todo-list.md
-github: [Will be updated when synced to GitHub]
+github: https://github.com/wangjia15/todolist/issues/1
 ---
 
 # Epic: todo-list
@@ -56,19 +56,19 @@ A multi-user todo list management system built with Spring Boot 3.x, MySQL, and 
 ## Task Summary
 Epic decomposed into 9 individual tasks covering all critical development areas:
 
-- **001**: Database Schema & Configuration Setup (8 hours) - MySQL setup, entity relationships, user isolation
-- **002**: User Authentication System Implementation (10 hours) - Spring Security, registration, login/logout
-- **003**: Core Task CRUD Operations with User Isolation (12 hours) - Full task management with security
-- **004**: Task Organization Features (8 hours) - Priority levels, due dates, filtering, sorting
-- **005**: Frontend UI Implementation with shadcn/ui (14 hours) - Responsive UI, accessibility, mobile design
-- **006**: Security & Validation Implementation (6 hours) - Input validation, XSS/CSRF protection
-- **007**: Testing & Quality Assurance (10 hours) - Unit/integration tests, performance testing
-- **008**: Performance Optimization (6 hours) - Database optimization, caching, load testing
-- **009**: Deployment Configuration & Production Setup (4 hours) - Production config, monitoring
+- **#2**: Database Schema & Configuration Setup (8 hours) - MySQL setup, entity relationships, user isolation
+- **#3**: User Authentication System Implementation (10 hours) - Spring Security, registration, login/logout
+- **#4**: Core Task CRUD Operations with User Isolation (12 hours) - Full task management with security
+- **#5**: Task Organization Features (8 hours) - Priority levels, due dates, filtering, sorting
+- **#6**: Frontend UI Implementation with shadcn/ui (14 hours) - Responsive UI, accessibility, mobile design
+- **#7**: Security & Validation Implementation (6 hours) - Input validation, XSS/CSRF protection
+- **#8**: Testing & Quality Assurance (10 hours) - Unit/integration tests, performance testing
+- **#9**: Performance Optimization (6 hours) - Database optimization, caching, load testing
+- **#10**: Deployment Configuration & Production Setup (4 hours) - Production config, monitoring
 
 **Total Estimated Effort**: 78 hours across 9 tasks
-**Critical Path**: 001 → 002 → 003 → 005 (UI depends on core functionality)
-**Parallel Work**: Tasks 004, 006, 007, 008 can be worked on in parallel after core tasks complete
+**Critical Path**: #2 → #3 → #4 → #6 (UI depends on core functionality)
+**Parallel Work**: Tasks #5, #7, #8, #9 can be worked on in parallel after core tasks complete
 
 ## Dependencies
 - **External Dependencies**: Java 17 runtime, MySQL server, Maven build system
